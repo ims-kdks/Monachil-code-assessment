@@ -44,7 +44,7 @@ def rainy_days(file_path, dist_thresh, rain_thresh, c_lat, c_lon) -> list:
 if __name__ == "__main__":
     city_name = str(input("Enter city name:[San Jose]") or "San Jose")
     location_url = "https://nominatim.openstreetmap.org/search.php?city=" + city_name  + "&format=jsonv2&namedetails=0&addressdetails=0&limit=1"
-    file_path = "resam"
+    file_path = "/data/chirps20GlobalPentadP05_233e_7ccc_b137.csv"
     dist_thresh = 0.05
     rain_thresh = 8.0
 
